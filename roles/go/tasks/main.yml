@@ -1,0 +1,6 @@
+---
+
+- name: Intall golang
+  package: 
+     name: golang
+     state: present

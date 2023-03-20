@@ -1,0 +1,15 @@
+---
+- name: Install/Upgrade git
+  package:
+    name: git
+    state: latest
+
+- name: Copy git user config files
+  copy:
+    src: "{{ item }}"
+    dest: "{{ user_home_dir }}/.{{ item }}"
+    mode: 0400
+  loop:
+    - gitconfig
+
+

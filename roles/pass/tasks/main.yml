@@ -1,0 +1,8 @@
+---
+
+- name: install pass and other extensions
+  package:
+    state: present
+    name:
+      - pass
+      - passmenu

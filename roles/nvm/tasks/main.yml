@@ -1,0 +1,11 @@
+---
+- name: Install nvm
+  shell: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+  args:
+    creates: "{{ user_home_dir }}/.nvm/nvm.sh"
+
+- name: Install nodejs latest version
+  shell: nvm install node
+
+- name: Set latest version as default
+  shell: nvm alias default node

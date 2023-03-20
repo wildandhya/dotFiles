@@ -1,0 +1,13 @@
+---
+- name: Setup workspace
+  hosts: workspace
+  gather_facts: false
+  vars:
+    user_home_dir: ansible_env.HOME
+  roles:
+      - git 
+      - go
+      - neovim
+      - nvm
+      - pass
+   

@@ -1,0 +1,11 @@
+---
+
+- name: Install neovim
+  package:
+    name: neovim
+    state: present
+
+- name: Create base directory for configuration of neovim
+  file:
+   path: "{{neovim_config_dir}}"
+   state: directory

@@ -1,0 +1,2 @@
+# Base directory for configuration files of neovim
+neovim_config_dir: "{{ user_home_dir }}/.config/nvim"
