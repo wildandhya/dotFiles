@@ -1,3 +1,3 @@
 ## .dotfiles
 
-This ansible project i use to setup & configure my personal desktop.
+ansible project for setup & configure my personal desktop.
