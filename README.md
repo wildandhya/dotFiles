@@ -2,7 +2,7 @@
 
 ansible project for setup & configure my personal desktop.
 
-## Usage
+### Usage
 
 #### Setup
 ```
