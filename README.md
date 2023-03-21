@@ -4,11 +4,11 @@ ansible project for setup & configure my personal desktop.
 
 ## Usage
 
-### Setup
+#### Setup
 ```
 ansible-playbook playbooks/setup-desktop.yml
 ```
-### Configure
+#### Configure
 ```
 ansible-playbook playbooks/configure.yml
 ```
